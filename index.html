@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Para Fefa</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <section class="hero fade">
+<div class="music-player">
+  <button onclick="toggleMusic()">▶ Música</button>
+  <input 
+    type="range" 
+    min="0" 
+    max="1" 
+    step="0.01" 
+    value="0.3"
+    oninput="setVolume(this.value)">
+</div>
+
+<audio id="bg-music" loop>
+  <source src="musica/musica.mp3" type="audio/mpeg">
+</audio>
+    <section class="galeria fade">
+  <img src="fotos/foto1.jpg">
+  <img src="fotos/foto2.jpg">
+  <img src="fotos/foto3.jpg">
+  <img src="fotos/foto4.jpg">
+  <img src="fotos/foto5.jpg">
+  <img src="fotos/foto6.jpg">
+  <img src="fotos/foto7.jpg">
+  <img src="fotos/foto8.jpg">
+  <img src="fotos/foto9.jpg">
+  <img src="fotos/foto10.jpg">
+  <img src="fotos/foto11.jpg">
+  <img src="fotos/foto12.jpg">
+</section>
+    <h1>Fefa</h1>
+    <p class="sub">A paz que eu mas desejava em minha vida</p>
+  </section>
+
+  <section class="texto fade">
+    <p>
+     Hoje é o seu aniversário e eu gostaria de lembrar o quão incrível você é, minha pequena.<br><br>
+
+O dia em que te conheci foi um dos melhores dias da minha vida, se não o melhor. Vi que você é diferente de todas as outras, por isso te amo tanto. Você sempre me perguntou quando foi que eu me apaixonei por você... Foi quando eu estava indo embora do show: olhei para você, te dei um beijo de despedida e você me puxou, dizendo: "Quando eu te vejo de novo?".<br><br>
+
+Foi ali que entendi que você era realmente o amor da minha vida. Foi uma sensação única de felicidade extrema. Você sempre me pergunta o que eu mais gosto em você e eu digo: tudo.<br><br>
+
+Amo seus olhos.<br><br>
+
+Amo sua boca.<br><br>
+
+Amo seu nariz.<br><br>
+
+Amo seu cabelo.<br><br>
+
+Amo sua unha.<br><br>
+
+Amo seu pezinho 35.<br><br>
+
+Amo seus 1,51m.<br><br>
+
+Amo seu jeito de cuidar de todos.<br><br>
+
+Hoje tenho a completa certeza de que você será a mãe dos meus filhos e a mulher da minha vida. Sempre tentei dar conselhos para outros casais mencionando o nosso relacionamento, mas o que a gente tem é algo único. Pode ter certeza de que eu sempre farei de tudo para que continuemos sendo únicos, minha princesa.<br><br>
+
+ <strong>Você sempre será a minha melhor escolha na vida.</strong><br><br>
+    </p>
+  </section>
+
+ <section class="segredo fade">
+  <button onclick="mostrar()">Clique aqui</button>
+  <p id="amo" class="hidden" onclick="mostrar()">Gostaria de ir ao cinema comigo xuxu?</p>
+  </section>
+<div id="hearts"></div>
+<script src="script.js"></script>
+</body>
+
+</html>
